@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JavascriptBatch-1_L-55</title>
+        <style>
+
+        </style>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        <h1>Functions camelCase</h1>
+        <script>
+            //document.getElementById()
+            //1. Function Define one time process
+            function myFunctionA(name){ //formal argument/parameter
+                //function body
+                console.log('Hello'+name)
+                myFunctionB('Hello'+ name)
+            }
+
+            //2. function call/invoke many time process
+            myFunctionA(' Sumit'); //actual argument/parameter
+
+            // + addition op.(10+20)
+            // + Concationation op.(10+"sumit"),('Rishi'+`Raj`)
+
+
+            //1. function define one time process
+            function myFunctionB(msg){ //formal argument/parameter
+                //function body
+                console.log(msg+' How are you')
+            } 
+
+            //2. function calling/invoke many time process
+            myFunctionB(`Sumit`);
+            // myFunctionA(' Sumit')
+
+            //constant are alaways written in UPPERCSAE
+            //PI 22/7 or 3.141
+            const PI = 3.14 //constant value is define one time only
+            
+        </script>
+    </body>
+</html>
